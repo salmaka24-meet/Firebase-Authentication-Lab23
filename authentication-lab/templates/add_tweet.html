@@ -5,6 +5,34 @@
     <title>Title</title>
 </head>
 <body>
+     <form method="POST" action="/add_tweet">
+        <!-- Heading -->
+        <h4>
+            Create a post
+        </h4>
+
+        <!-- title -->
+        <div>
+            <label>title</label>
+            <div>
+                <input type="text"  name="title" id="titleStr" required>
+            </div>
+        </div>
+
+
+        <!-- discrip-->
+        <div>
+            <label>discription *</label>
+            <div>
+                <input type="text" name="discrip" id="Disc" maxlength="280">
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
     Great Job!
     <button type="button">sign out</button>
 </body>
